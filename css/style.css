@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+  font-family: Roboto, Raleway;
+}
+
+.header {
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.nav {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 94px;
+}
+
+.logo {
+  font-size: 26px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  line-height: 1.7;
+  font-family: raleway;
+  letter-spacing: 3%;
+}
+
+.logo span {
+  color: #2196f3;
+}
+
+.nav-logo {
+}
+
+.nav-link,
+.nav-contact {
+  list-style: none;
+  display: flex;
+}
+
+.nav-link li {
+  margin-right: 50px;
+  color: black;
+}
+.nav-contact li {
+  margin-left: 50px;
+}
+.nav-link a {
+  color: #000;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 2%;
+  font-weight: 500;
+  text-decoration: none;
+}
+.nav-link a:hover {
+  color: #2196f3;
+}
+
+.contact a {
+  color: #757575;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 2%;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.main {
+  margin-bottom: 94px;
+}
+.main-nav {
+  display: flex;
+  justify-content: center;
+}
+.main-link {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.main-link a {
+  margin: 0 4px;
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  line-height: 26px;
+  background-color: rgba(245, 244, 250, 1);
+  padding: 6px 22px;
+  border-radius: 4px;
+}
+.main-link a:hover {
+  color: #fff;
+  background-color: #2196f3;
+}
+
+.main-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-item {
+}
+.main-item li {
+  list-style: none;
+  text-align: left;
+}
+
+.item-title {
+  font-weight: 700;
+  color: #212121;
+  line-height: 2;
+  letter-spacing: 6;
+  font-size: 18px;
+  margin-bottom: 4px;
+  margin-left: 24px;
+}
+.item-subtitle {
+  font-weight: 400;
+  color: rgba(117, 117, 117, 1);
+  line-height: 1;
+  letter-spacing: 6;
+  font-size: 16px;
+  margin-left: 24px;
+  margin-bottom: 20px;
+}
+.footer {
+  background: rgba(47, 48, 58, 1);
+  padding: 60px 0;
+}
+
+.footer-contact li {
+  margin-bottom: 9px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  list-style: none;
+}
