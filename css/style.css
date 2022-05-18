@@ -39,7 +39,7 @@ body {
   line-height: 1.7;
   font-family: raleway;
   letter-spacing: 3%;
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 .logo span {
@@ -49,6 +49,10 @@ body {
 .nav-contact {
   list-style: none;
   display: flex;
+}
+
+.nav-link {
+  margin-right: 100px;
 }
 
 .nav-link li,
@@ -93,6 +97,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 35px;
 }
 .main-link {
   list-style: none;
@@ -123,16 +128,17 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
-.main-item {
-  max-width: 370px;
+
+.main-portfolio ul {
+  padding: 0;
 }
 .main-item li {
   list-style: none;
 }
 
-.main-item .item-img {
+.item-img {
   width: 100%;
 }
 
@@ -157,6 +163,10 @@ body {
 .footer {
   background: var(--brand-color-footer);
   padding: 60px 0;
+}
+
+.footer ul {
+  padding: 0 0 0 20px;
 }
 
 .footer-contact li {
