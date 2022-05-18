@@ -161,10 +161,13 @@ body {
 
 .footer-contact li {
   margin-bottom: 9px;
+  list-style: none;
+}
+
+.footer-contact .footer-map {
   color: var(--white-brand-color);
   font-style: normal;
   font-weight: 400;
-  list-style: none;
   line-height: 1.8;
   font-size: 14px;
 }
