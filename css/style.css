@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
 
+/* Брендовые цвета */
+
 :root {
   --blu-brand-color: #2196f3;
   --black-brand-color: #000;
@@ -21,6 +23,8 @@ body {
   max-width: 1240px;
   margin: 0 auto;
 }
+
+/* Стилизация Навигации */
 
 .nav-wrapper {
   display: flex;
@@ -57,13 +61,9 @@ body {
   display: flex;
 }
 
-.nav-link li,
-.nav-contact li {
-  margin-right: 50px;
-}
-
-.nav-contact li:last-child {
-  margin-right: 0px;
+.nav-link a:hover,
+.nav-link a:focus {
+  color: var(--blu-brand-color);
 }
 
 .nav-link a {
@@ -74,15 +74,19 @@ body {
   font-weight: 500;
   text-decoration: none;
 }
-.nav-link a:hover {
-  color: var(--blu-brand-color);
+
+/* стилизация нав контактов */
+
+.nav-link li,
+.nav-contact li {
+  margin-right: 50px;
 }
 
-.nav-link a:focus {
-  color: var(--blu-brand-color);
+.nav-contact li:last-child {
+  margin-right: 0px;
 }
 
-.header-contact{
+.header-contact {
   margin-right: 20px;
 }
 
@@ -100,6 +104,8 @@ body {
 .contact a:focus {
   color: var(--blu-brand-color);
 }
+
+/* Стилизация Мэйн */
 
 .main {
   margin-bottom: 94px;
