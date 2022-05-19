@@ -4,13 +4,11 @@
 
 :root {
   --blu-brand-color: #2196f3;
-  --black-brand-color: #000;
-  --grey-brand-color: #757575;
+  --black-brand-color: rgba(33, 33, 33, 1);
+  --grey-brand-color: rgba(117, 117, 117, 1);
   --white-brand-color: #fff;
-  --item-color-title: #212121;
-  --item-color-subtitle: rgba(117, 117, 117, 1);
+  --black-logo: #000;
   --brand-color-footer: rgba(47, 48, 58, 1);
-  --brant-color-button: rgba(245, 244, 250, 1);
 }
 
 body {
@@ -165,7 +163,7 @@ body {
 
 .item-title {
   font-weight: 700;
-  color: var(--item-color);
+  color: var(----black-brand-color);
   line-height: 2;
   letter-spacing: 6;
   font-size: 18px;
@@ -174,7 +172,7 @@ body {
 }
 .item-subtitle {
   font-weight: 400;
-  color: var(--item-color-subtitle);
+  color: var(--grey-brand-color);
   line-height: 1.8;
   letter-spacing: 6;
   font-size: 16px;
