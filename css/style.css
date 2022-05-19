@@ -127,7 +127,7 @@ body {
   color: var(--black-brand-color);
   font-size: 16px;
   line-height: 1.6;
-  background: var(--brant-color-button);
+  background: rgba(245, 244, 250, 1);
   padding: 6px 22px;
   border-radius: 4px;
   border: 0;
@@ -136,6 +136,7 @@ body {
   color: var(--white-brand-color);
   background-color: var(--blu-brand-color);
   cursor: pointer;
+  box-shadow: 0 5px 15px rgba(117, 117, 117, 0.2);
 }
 
 /* Скрытй текст в портфолио */
