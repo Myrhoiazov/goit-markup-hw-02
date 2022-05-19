@@ -38,6 +38,7 @@ body {
   max-width: 100%;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -59,6 +60,7 @@ body {
 .nav-contact {
   list-style: none;
   display: flex;
+  
 }
 
 .nav-link a:hover,
