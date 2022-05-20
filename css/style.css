@@ -1,6 +1,6 @@
 /* Общие файлы Css */
 
-/* Брендовые цвета */
+/* ---------Брендовые цвета---------- */
 
 :root {
   --blu-brand-color: #2196f3;
@@ -23,7 +23,7 @@ body {
   margin: 0 auto;
 }
 
-/* Стилизация Навигации */
+/* -------Стилизация Навигации------- */
 
 .nav-wrapper {
   display: flex;
@@ -132,16 +132,16 @@ body {
   font-size: 14px;
 }
 
-/* Стилизация Portfolio */
+/* ---------Стилизация Portfolio-------- */
 
 /* Стилизация Мэйн */
 
-.main-port {
+.main-portfolio {
   padding-bottom: 94px;
 }
 
-.main-nav {
-  margin-bottom: 15px;
+.portfolio-nav {
+  padding-bottom: 34px;
 }
 
 .main-link {
@@ -173,29 +173,27 @@ body {
 .main-text {
   visibility: hidden;
 }
+/* Скрытй текст в портфолио */
 
-.main-item {
+.portfolio-items {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-}
-
-.main-portfolio ul {
   padding: 0;
 }
 
-.main-item .item {
+.portfolio-item {
   list-style: none;
   margin-bottom: 30px;
   border: 1px solid rgba(238, 238, 238, 1);
 }
 
-.item-img {
-  width: 100%;
+.portfolio-item:hover{
+  box-shadow: 0 5px 15px rgba(117, 117, 117, 0.1);
 }
 
-.item-title {
+.portfolio-title {
   font-weight: 700;
   color: var(----black-brand-color);
   line-height: 2;
@@ -204,7 +202,7 @@ body {
   margin-bottom: 4px;
   margin-left: 24px;
 }
-.item-subtitle {
+.portfolio-subtitle {
   font-weight: 400;
   color: var(--grey-brand-color);
   line-height: 1.8;
@@ -243,6 +241,8 @@ body {
   cursor: pointer;
 }
 
+/* Our Work */
+
 .our-work {
   margin-bottom: 94px;
 }
@@ -254,6 +254,7 @@ body {
   justify-content: space-between;
   padding: 0;
 }
+
 .our-work-link,
 .progress-link {
   list-style: none;
@@ -279,13 +280,20 @@ body {
 }
 
 /* Our progress */
-.progress-link:nth-child(3) {
-  margin: 0;
-}
 
 .our-progress {
   padding-bottom: 94px;
 }
+
+.progress-link {
+  list-style: none;
+  margin-right: 30px;
+}
+
+.progress-link:nth-child(3) {
+  margin: 0;
+}
+
 
 /* Общий Title */
 .title {
