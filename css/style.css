@@ -243,17 +243,21 @@ body {
   cursor: pointer;
 }
 
-.our-work-list,
-.progress-list {
-  display: flex;
-  justify-content: center;
+.our-work {
   margin-bottom: 94px;
+}
+
+.our-work-list,
+.progress-list,
+.team-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
 }
 .our-work-link,
 .progress-link {
   list-style: none;
   margin-right: 30px;
-  padding: 0;
 }
 
 .our-work-link:nth-child(4) {
@@ -279,6 +283,10 @@ body {
   margin: 0;
 }
 
+.our-progress {
+  padding-bottom: 94px;
+}
+
 /* Общий Title */
 .title {
   text-align: center;
@@ -297,7 +305,8 @@ body {
 }
 .team-list {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .team-link {
