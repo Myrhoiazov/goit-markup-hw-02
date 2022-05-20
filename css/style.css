@@ -187,10 +187,13 @@ body {
   list-style: none;
   margin-bottom: 30px;
   border: 1px solid rgba(238, 238, 238, 1);
+  transform: scale(1);
+  transition: transform 1s ease;
 }
 
-.portfolio-item:hover{
+.portfolio-item:hover {
   box-shadow: 0 5px 15px rgba(117, 117, 117, 0.1);
+  transform: scale(1.01);
 }
 
 .portfolio-title {
@@ -294,7 +297,6 @@ body {
   margin: 0;
 }
 
-
 /* Общий Title */
 .title {
   text-align: center;
@@ -315,6 +317,7 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .team-link {
