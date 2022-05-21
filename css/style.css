@@ -1,3 +1,17 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+ul, li {
+  padding: 0;
+}
+
 /* Общие файлы Css */
 
 /* ---------Брендовые цвета---------- */
@@ -16,11 +30,14 @@ body {
   box-sizing: border-box;
   color: #000;
   background-color: var(--white-brand-color);
+  margin: 0;
 }
 
 .container {
-  max-width: 1240px;
+  max-width: 1230px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* -------Стилизация Навигации------- */
@@ -50,7 +67,6 @@ body {
   line-height: 1.2;
   font-family: 'Raleway';
   letter-spacing: 3%;
-  margin-left: 20px;
   margin-right: 90px;
 }
 
@@ -71,6 +87,7 @@ body {
   letter-spacing: 2%;
   font-weight: 500;
   text-decoration: none;
+  
 }
 
 .nav-list .nav-link:hover,
@@ -87,10 +104,6 @@ body {
 
 .nav-contact li:last-child {
   margin-right: 0px;
-}
-
-.header-contact {
-  margin-right: 20px;
 }
 
 .contact .contact-link {
@@ -113,10 +126,6 @@ body {
 .footer {
   background: var(--brand-color-footer);
   padding: 60px 0;
-}
-
-.footer ul {
-  padding: 0 0 0 20px;
 }
 
 .footer-contact li {
@@ -174,13 +183,11 @@ body {
   visibility: hidden;
 }
 /* Скрытй текст в портфолио */
-
 .portfolio-items {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
-  justify-content: space-around;
-  padding: 0;
 }
 
 .portfolio-item {
@@ -190,6 +197,7 @@ body {
   border-radius: 5px;
   transform: scale(1);
   transition: transform 1s ease;
+
 }
 
 .portfolio-item:hover {
@@ -256,7 +264,6 @@ body {
 .team-list {
   display: flex;
   justify-content: space-between;
-  padding: 0;
 }
 
 .our-work-link,
@@ -292,6 +299,7 @@ body {
 .progress-link {
   list-style: none;
   margin-right: 30px;
+
 }
 
 .progress-link:nth-child(3) {
@@ -318,7 +326,6 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  align-items: center;
 }
 
 .team-link {
