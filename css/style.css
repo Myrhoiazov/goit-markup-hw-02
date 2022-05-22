@@ -8,7 +8,8 @@ html {
   box-sizing: inherit;
 }
 
-ul, li {
+ul,
+li {
   padding: 0;
 }
 
@@ -26,7 +27,7 @@ ul, li {
 }
 
 body {
-  font-family: Roboto, Raleway, sans-serif;
+  font-family: 'Roboto';
   box-sizing: border-box;
   color: #000;
   background-color: var(--white-brand-color);
@@ -84,10 +85,9 @@ body {
   color: var(----black-brand-color);
   font-size: 14px;
   line-height: 1.1;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   font-weight: 500;
   text-decoration: none;
-  
 }
 
 .nav-list .nav-link:hover,
@@ -128,39 +128,49 @@ body {
   padding: 60px 0;
 }
 
-.footer-contact li {
-  margin-bottom: 9px;
-  list-style: none;
+.footer-logo {
+  color: var(--white-brand-color);
 }
 
-.footer-contact .footer-map {
-  color: var(--white-brand-color);
-  font-style: normal;
-  font-weight: 400;
+.footer-contact .footer-link {
+  margin-bottom: 9px;
+  list-style: none;
   line-height: 1.8;
   font-size: 14px;
 }
 
+.footer-contact .contact-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact .footer-map {
+  color: var(--white-brand-color);
+}
+
 /* ---------Стилизация Portfolio-------- */
 
-/* Стилизация Мэйн */
+/* Стилизация Portfolio Body */
+
+/* Скрытй текст в портфолио */
+.main-text {
+  visibility: hidden;
+}
+/* Скрытй текст в портфолио */
 
 .main-portfolio {
   padding-bottom: 94px;
 }
 
-.portfolio-nav {
-  margin-bottom: 34px;
-}
-
-.main-link {
+.portfolio-link {
   list-style: none;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 34px;
+  margin-top: 0;
 }
 
-.main-link button {
+.portfolio-link button {
   margin: 0 4px;
   margin-bottom: 10px;
   color: var(--black-brand-color);
@@ -171,18 +181,17 @@ body {
   border-radius: 4px;
   border: 0;
 }
-.main-link button:hover {
+.portfolio-link button:hover {
   color: var(--white-brand-color);
   background-color: var(--blu-brand-color);
   cursor: pointer;
   box-shadow: 0 5px 15px rgba(117, 117, 117, 0.2);
 }
 
-/* Скрытй текст в портфолио */
-.main-text {
-  visibility: hidden;
+.portfolio-link button:focus {
+  border: 1px solid var(--blu-brand-color);
 }
-/* Скрытй текст в портфолио */
+
 .portfolio-items {
   display: flex;
   flex-wrap: wrap;
@@ -198,11 +207,10 @@ body {
   border-radius: 5px;
   transform: scale(1);
   transition: transform 1s ease;
-
 }
 
 .portfolio-item:hover {
-  box-shadow: 0 5px 15px rgba(117, 117, 117, 0.1);
+  box-shadow: 0 5px 15px rgba(117, 117, 117, 0.2);
   transform: scale(1.01);
 }
 
@@ -245,6 +253,12 @@ body {
   background-color: var(--blu-brand-color);
   color: var(--white-brand-color);
 
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: inherit;
+  line-height: 1.9;
+
   padding: 10px 32px;
   border: none;
   border-radius: 4px;
@@ -277,16 +291,16 @@ body {
 }
 
 .our-work__title {
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: 3%;
+  line-height: 2;
+  letter-spacing: 0.06em;
   color: var(--black-brand-color);
 }
 .our-work__subtitle {
   font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   color: var(--grey-brand-color);
 }
 
@@ -299,7 +313,6 @@ body {
 .progress-link {
   list-style: none;
   margin-right: 30px;
-
 }
 
 .progress-link:nth-child(3) {
