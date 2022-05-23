@@ -310,6 +310,7 @@ body {
 }
 
 .our-work__title {
+  text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
   line-height: 2;
