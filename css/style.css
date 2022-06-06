@@ -35,7 +35,7 @@ body {
 }
 
 .container {
-  max-width: 1230px;
+  max-width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -47,7 +47,6 @@ body {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .site-nav {
@@ -106,6 +105,10 @@ body {
 }
 .nav-contact .item + .item {
   margin-left: 50px;
+}
+
+.header-contact{
+  margin-left: auto;
 }
 
 .contact .contact-link {
@@ -370,7 +373,7 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  margin-right: 30px;
+  /* margin-right: 30px; */
 }
 
 .team-text {
